@@ -1,6 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.Client.UI.Web.Module", "Gizmo.Client.UI.Web.Module\Gizmo.Client.UI.Web.Module.csproj", "{A860EF67-72D3-4961-9CC5-FB76BD669CFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.Client.UI.Web.Module", "Gizmo.Client.UI.Web.Module\Gizmo.Client.UI.Web.Module.csproj", "{3C96B5E1-EC4E-4E81-8F30-13F93AE66DA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6CDACAA8-419B-4FDF-A6B0-CB9118283DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.Client.Shared", "Submodules\Gizmo.Client.Shared\Gizmo.Client.Shared\Gizmo.Client.Shared.csproj", "{F592EA56-1AD8-4B57-8684-93FF26D45934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.Shared", "Submodules\Gizmo.Shared\Gizmo.Shared.csproj", "{E3233595-94F3-46FA-A20D-27FC0E0E9B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.UI", "Submodules\Gizmo.UI\Gizmo.UI\Gizmo.UI.csproj", "{4599444D-966A-4FBE-9752-A1C2D45B128D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.Web.Api.Models", "Submodules\Gizmo.Web.Api.Models\Gizmo.Web.Api.Models.csproj", "{22A4A304-E4D7-4A4B-9465-DAA6F9A46185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmo.Web.Components", "Submodules\Gizmo.Web.Components\Gizmo.Web.Components.csproj", "{3D61D92B-31E3-4D07-AB9C-AE4C93016222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +20,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A860EF67-72D3-4961-9CC5-FB76BD669CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A860EF67-72D3-4961-9CC5-FB76BD669CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A860EF67-72D3-4961-9CC5-FB76BD669CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A860EF67-72D3-4961-9CC5-FB76BD669CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C96B5E1-EC4E-4E81-8F30-13F93AE66DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C96B5E1-EC4E-4E81-8F30-13F93AE66DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C96B5E1-EC4E-4E81-8F30-13F93AE66DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C96B5E1-EC4E-4E81-8F30-13F93AE66DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F592EA56-1AD8-4B57-8684-93FF26D45934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F592EA56-1AD8-4B57-8684-93FF26D45934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F592EA56-1AD8-4B57-8684-93FF26D45934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F592EA56-1AD8-4B57-8684-93FF26D45934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3233595-94F3-46FA-A20D-27FC0E0E9B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3233595-94F3-46FA-A20D-27FC0E0E9B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3233595-94F3-46FA-A20D-27FC0E0E9B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3233595-94F3-46FA-A20D-27FC0E0E9B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4599444D-966A-4FBE-9752-A1C2D45B128D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4599444D-966A-4FBE-9752-A1C2D45B128D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4599444D-966A-4FBE-9752-A1C2D45B128D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4599444D-966A-4FBE-9752-A1C2D45B128D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A4A304-E4D7-4A4B-9465-DAA6F9A46185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A4A304-E4D7-4A4B-9465-DAA6F9A46185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A4A304-E4D7-4A4B-9465-DAA6F9A46185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A4A304-E4D7-4A4B-9465-DAA6F9A46185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D61D92B-31E3-4D07-AB9C-AE4C93016222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D61D92B-31E3-4D07-AB9C-AE4C93016222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D61D92B-31E3-4D07-AB9C-AE4C93016222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D61D92B-31E3-4D07-AB9C-AE4C93016222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F592EA56-1AD8-4B57-8684-93FF26D45934} = {6CDACAA8-419B-4FDF-A6B0-CB9118283DB8}
+		{E3233595-94F3-46FA-A20D-27FC0E0E9B78} = {6CDACAA8-419B-4FDF-A6B0-CB9118283DB8}
+		{4599444D-966A-4FBE-9752-A1C2D45B128D} = {6CDACAA8-419B-4FDF-A6B0-CB9118283DB8}
+		{22A4A304-E4D7-4A4B-9465-DAA6F9A46185} = {6CDACAA8-419B-4FDF-A6B0-CB9118283DB8}
+		{3D61D92B-31E3-4D07-AB9C-AE4C93016222} = {6CDACAA8-419B-4FDF-A6B0-CB9118283DB8}
 	EndGlobalSection
 EndGlobal

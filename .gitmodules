@@ -1,15 +1,20 @@
 [submodule "Submodules/Gizmo.UI"]
 	path = Submodules/Gizmo.UI
 	url = https://github.com/GAMP/Gizmo.UI.git
+	branch = dev
 [submodule "Submodules/Gizmo.Shared"]
 	path = Submodules/Gizmo.Shared
 	url = https://github.com/GAMP/Gizmo.Shared.git
+	branch = version-3
 [submodule "Submodules/Gizmo.Client.Shared"]
 	path = Submodules/Gizmo.Client.Shared
 	url = https://github.com/GAMP/Gizmo.Client.Shared.git
+	branch = version-3
 [submodule "Submodules/Gizmo.Web.Api.Models"]
 	path = Submodules/Gizmo.Web.Api.Models
 	url = https://github.com/GAMP/Gizmo.Web.Api.Models.git
+	branch = version-3
 [submodule "Submodules/Gizmo.Web.Components"]
 	path = Submodules/Gizmo.Web.Components
 	url = https://github.com/GAMP/Gizmo.Web.Components.git
+	branch = dev

@@ -7,16 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Submodules\Gizmo.Client.Shared\Gizmo.Client.Shared\Gizmo.Client.Shared.csproj" />
-      <ProjectReference Include="..\..\Submodules\Gizmo.Web.Components\Gizmo.Web.Components.csproj" />
-      <ProjectReference Include="..\Submodules\Gizmo.Client.Shared\Gizmo.Client.Shared\Gizmo.Client.Shared.csproj" />
-      <ProjectReference Include="..\Submodules\Gizmo.Shared\Gizmo.Shared.csproj" />
-      <ProjectReference Include="..\Submodules\Gizmo.Web.Api.Models\Gizmo.Web.Api.Models.csproj" />
-      <ProjectReference Include="..\Submodules\Gizmo.Web.Components\Gizmo.Web.Components.csproj" />
+      <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.7" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.7" />
+      <ProjectReference Include="..\Submodules\Gizmo.Client.Shared\Gizmo.Client.Shared\Gizmo.Client.Shared.csproj" />
+      <ProjectReference Include="..\Submodules\Gizmo.Shared\Gizmo.Shared.csproj" />
+      <ProjectReference Include="..\Submodules\Gizmo.Web.Components\Gizmo.Web.Components.csproj" />
     </ItemGroup>
     
 </Project>
